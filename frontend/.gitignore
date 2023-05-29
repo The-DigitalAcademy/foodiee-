@@ -1,0 +1,7 @@
+dependencies
+node_modules
+/node_modules
+proxy.conf.json
+/proxy.conf.json
+.DS_Store
+/DS_Store

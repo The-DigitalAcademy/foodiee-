@@ -1,0 +1,32 @@
+<div class="one">
+    <h1>Monthly Specials</h1>
+</div>
+
+<div class="two">
+    <h2>Johannesburg</h2>
+    <p>Specials only available in Johannesburg,
+        Enjoy a wide selection of fresh fruit and
+        vegetables, meat, and much more at unbeatable
+        quality and prices. We guarantee the best in fresh!</p>
+
+</div>
+<div class="container">
+
+    <div class="three">
+        <div class="container">
+            <div *ngFor="let product of productList" class="card" style="width: 18rem;">
+            <span class="ribbon left">{{product.noOfItems}} Items</span>
+                <img [src]="product.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">{{product.title}}</h2>
+                    <p>R{{product.price.toFixed(2)}}</p>
+                    <p>{{product.description}}</p>
+                    <a href="#" class="btn" style="background-color: rgb(113, 175, 79); border: none;"
+                        (click)="addToCart(product)" routerLink="/specials">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="three"></div>
+</div>

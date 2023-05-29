@@ -1,0 +1,84 @@
+<!-- <form
+  ngNoForm
+  action="https://sandbox.payfast.co.za​/eng/process"
+  method="post"
+>
+  <input type="hidden" name="merchant_id" value="10029575" />
+  <input type="hidden" name="merchant_key" value="po38bb5242z2x" />
+
+  
+
+  <input type="hidden" name="amount" value="{{ total }}" />
+
+  <input type="hidden" name="item_name" value="{{ items.toString() }}" />
+
+
+
+  <div [formGroup]="form">
+    <label for="email">Enter your email to get OTP: </label>
+    <input type="email" value="someText" formControlName="email">
+  </div>
+ 
+  <input type="submit" (click)="checkout()" value="pay Now" />
+</form>
+ -->
+
+<div class="min-w-screen min-h-screen bg-gray-200 flex flex-col items-center justify-center px-5 pb-10 pt-16">
+  <div class="w-full mx-auto rounded-lg bg-white shadow-lg p-5 text-gray-700 mt-28" style="max-width: 400px">
+    <div class="w-full pt-1 pb-5">
+      <div
+        class="bg-green-700 text-white overflow-hidden rounded-full w-20 h-20 -mt-20 mx-auto shadow-lg flex justify-center items-center">
+        <ion-icon name="card"></ion-icon>
+      </div>
+    </div>
+    <div class="mb-10">
+      <h1 class="text-center font-bold text-xl uppercase">
+        Secure payment info
+      </h1>
+    </div>
+    <div class="mb-3 flex -mx-2">
+      <div class="px-2">
+        <label for="type1" class="flex items-center cursor-pointer">
+          <input type="radio" class="form-radio h-5 w-5 text-green-700" name="type" id="type1" checked />
+          <img src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" class="h-8 ml-3" />
+        </label>
+      </div>
+
+    </div>
+
+    <div class="flex flex-col gap-2 mb-2">
+      <label class="font-bold text-sm mb-2 ml-1">Grand Total: {{ total.toFixed(2) | currency : "R" }}</label>
+      <label class="font-bold text-sm mb-2 ml-1">Products: {{ items.toString() }}</label>
+      <label class="font-bold text-sm mb-2 ml-1">Number of products: {{ length }} Items</label>
+    </div>
+    <form ngNoForm action="https://sandbox.payfast.co.za​/eng/process"  method="post">
+      <input type="hidden" name="merchant_id" value="10029575" />
+      <input type="hidden" name="merchant_key" value="po38bb5242z2x" />
+
+      <input type="hidden" name="amount" value="{{ total }}" />
+
+      <input type="hidden" name="item_name" value="{{ items.toString() }}" />
+
+      <div class="mb-3" [formGroup]="form">
+        <label class="font-bold text-sm mb-2 ml-1">Email to receive OTP</label>
+        <div
+          class="w-full p-1 mb-1 border-2 border-gray-200 rounded-md focus:outline-none focus:border-indigo-500 transition-colors flex flex-row gap-2">
+          <input placeholder="dadevs@gmail.com" type="email" class="w-52 outline-none border-none active:outline-none p-2
+          " formControlName="email" />
+          <button type="button" class="bg-green-700 p-1 text-white text-sm rounded-md w-24" (click)="checkout()">Get
+            OTP</button>
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-2">
+        <button type="submit"
+          class="block w-full w-24 mx-auto bg-green-700 hover:bg-green-500 focus:bg-green-700 text-white rounded-lg px-3 py-3 font-semibold flex items-center justify-center gap-1 "
+          ><ion-icon name="lock-closed-outline"></ion-icon>Pay Now</button>
+      </div>
+    </form>
+  </div>
+  <div class="alert alert-success relative bottom-10 w-96 m-auto" role="alert" *ngIf="sent"  >
+    Email succesfully sent!
+  </div>
+</div>
+

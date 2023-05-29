@@ -1,0 +1,81 @@
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 5px rgba(155, 198, 177, 0.3);
+    position: relative;
+    top: 200px;
+  }
+
+  .bg-img {
+    /* The image used */
+    background-image: url("https://imageproxy.wolt.com/venue/624eae7755b1f3f0947d6784/33ffad50-bbc5-11ec-8a18-86ad697e14b4_shutterstock_1309113232.jpg");
+  
+    /* Control the height of the image */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5px;
+
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(23, 22, 22, 0.419);
+    font-size: 16px;
+    background-color:white;
+  }
+  
+  [type="submit"] {
+    background: #456546;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    margin-top: 10px;
+   
+  }
+  
+  input[type="submit"]:hover {
+    background: #3e8e41;
+    border: none;
+    outline: none;
+  
+  }
+  .achor{
+    color: rgb(5, 147, 224);
+  }.achor:hover{
+    text-decoration: underline;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .error{
+    color: red;
+    margin-top: 0.5rem;
+  }

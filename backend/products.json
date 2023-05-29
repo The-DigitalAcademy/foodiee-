@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Apples",
+        "price": 10.95,
+        "description": "Fresh green apples from the tree",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683633489/products/tru-cape_w750z4.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "10kg Tastic Rice",
+        "price": 120.95,
+        "description": "Fresh",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632969/products/rice-removebg-preview_nzfl6p.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "10Kg White star Milie Meal",
+        "price": 110.95,
+        "description": "White star brand, fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/mealie_meal_xlfoxz.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Tomato Sauce",
+        "price": 30.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632969/products/tomato_udrvba.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "2l Cooking Oil",
+        "price": 10.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/excella_nicso4.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Cabbage",
+        "price": 10.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/cabbage_xwfvs5.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "2kg Carrots",
+        "price": 20.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/carrots_qmdjko.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Curry Powder",
+        "price": 20.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632969/products/rajah_spf5r1.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Milk",
+        "price": 20.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/milk_qyzct7.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Romany Creams",
+        "price": 20.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632969/products/romany_vozley.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "30 Eggs",
+        "price": 40.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683632968/products/eggs_30_srsa5n.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "title": "Ulta Mel",
+        "price": 40.95,
+        "description": "Fresh for your household",
+        "category": "gluten free",
+        "image": "https://res.cloudinary.com/dxnpgxqlg/image/upload/v1683633489/products/ultramel_tbvzb6.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    }
+]
